@@ -1,0 +1,23 @@
+.loffer_overflow{
+    position: fixed;
+    z-index: 100000;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .6);
+    transition: all.5s;
+    overflow-y: auto ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: none; */
+}
+.loffer_showing{
+    min-width: 100px;
+    max-width: 500px;
+    min-height: 100px;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+}
